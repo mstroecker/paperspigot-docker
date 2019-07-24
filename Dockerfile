@@ -16,7 +16,7 @@ LABEL maintainer="Felix Klauke <info@felix-klauke.de>"
 ### Arguments ###
 #################
 ARG PAPERSPIGOT_CI_JOB=Paper-1.14
-ARG PAPERSPIGOT_CI_BUILDNUMBER=95
+ARG PAPERSPIGOT_CI_BUILDNUMBER=146
 ARG ARTIFACT_NAME=paperclip.jar
 ARG PAPERSPIGOT_CI_URL=https://papermc.io/ci/job/${PAPERSPIGOT_CI_JOB}/${PAPERSPIGOT_CI_BUILDNUMBER}/artifact/${ARTIFACT_NAME}
 ARG MINECRAFT_BUILD_USER=minecraft-build
